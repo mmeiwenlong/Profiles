@@ -4,9 +4,7 @@
 ## 密切注意！！密切注意！！
 ### 适用版本说明
 1. 本预配置文件及教程目前仅适用于 1.0.2 及之前版本 
-
 2. 务必备份 1.0.2 及之前版本（有哪个就备份哪个）；(01.11.2019 更新)
-
 3. 点击`QuantumultX`右下角`三菱`按钮，拉到最底部即可看到版本号；`VSCO` / `Termius`解锁本地PRO[查看详情](https://limbopro.xyz/archives/4322.html) 或参考 [NobyDa](https://t.me/rules4limbopro/3) 说明；等VIP会员解锁有影响；（01.11.2019更新说明）。
 
 4. 未来版本更新是否会有所影响，暂且不知；
@@ -49,7 +47,6 @@
 
 本预配置文件，相当于提前为QuantumultX`预设策略`（~~10~~8个策略）及其`策略图标`，`去广告规则`，`主流站点`分流规则，以及无需拔卡看，`Tiktok`，解锁`VSCO`会员；务必遵循教程步骤前后顺序，以确保其可用性；
 
-**效果图参考** https://t.me/limboprossr/863
 
 
 ## 事前备份
@@ -59,7 +56,18 @@
 2. 找到`配置文件`模块下`导出`，点击，选择`存储到文件`；
 3. 备份完毕；
 
-# 预配置文件教程
+# 教程概要
+
+1. 备份已有机场节点订阅 （该步随意
+2. 下载本预配置文件 
+3. 下载NobyDa JS脚本 到iPhone本地
+4. 配置并信任证书
+5. 开启 Rewrite +MitM
+6. 完事
+
+**最终效果图参考** https://t.me/limboprossr/863
+
+# 预配置文件使用教程
 ## 1.备份你的机场订阅链接
 0. **针对有多个机场订阅链接的小伙伴，这会是一个快捷备份方法**
 1. 进入`QuantumultX`，点击右下角`三菱`按钮；
@@ -99,13 +107,13 @@
 将JP修改成其他地区英文缩写即可，其他国家或地区代码。例如改成 HK，KR，TW，KP；
 
 
-## 5.如何引用本地脚本
+## 5.下载并引用本地脚本
 
-*为了应对Quantumlt X v1.0.1 及之后版本更新对远程脚本的限制；具体是指 v1.0.1-1.0.2  已不再支持远程下载JS脚本所以需要进行本地配置；（例如：https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf）
+*为了应对Quantumlt X v1.0.1 及之后版本更新对远程脚本的限制；具体是指 v1.0.1-1.0.2  已不再支持远程下载JS脚本所以需要进行本地配置；（例如该Rewrite 脚本：https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf）
 
 也就是说将NobyDa的脚本放到本地，以供`QuantumultX`进行引用；
 
-* 可以参考视频：https://t.me/limboprossr/921 配合以下步骤食用；
+0. 现在可以参考视频：https://t.me/limboprossr/921 并配合以下步骤食用；
 
 1. 打开iOS 系统自带软件 `文件`，进入`我的iPhone`-找到`Quantumult X` 文件；
 2. 进入`Quantumult X`文件夹-再进入`Scripts`子文件夹，长按空白处选择`新建文件夹`；
