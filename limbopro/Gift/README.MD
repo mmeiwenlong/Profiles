@@ -1,51 +1,41 @@
-库位置：https://github.com/limbopro/Profiles/tree/master/limbopro/Gift
+本仓库位置：https://github.com/limbopro/Profiles/tree/master/limbopro/Gift
 
 # 主理人说
 
 
 ## 备份 iOS IPA 安装文件
-- 备份 1.0.2/1.0.3 （有哪个就备份哪个）；
-- 备份IPA参考 [仅需三步，使用iMazing 轻松下载（当前版本）/或安装IPA文件（旧版本）](  https://limbopro.xyz/archives/imazing.html)（需挂代理）
+- 备份IPA参考 [仅需三步，使用iMazing 轻松下载（当前版本）/或安装IPA文件（旧版本）](https://limbopro.xyz/archives/imazing.html)（需挂代理）
 
-~~*针对未来的更新是否应该立即更新，暂保留意见；~~ 
+# 预配置文件说明
 
-# 预配置文件版本更新日志
-## App更新
-### 22:00 22.11.2019 1.0.3 版本更新
-*此更新仅针对 Quantumult X app 1.0.3 版本；已经阉割远程调用脚本（Scripts）的功能回归；如果你仍在使用本地脚本，更新QuantumultX到1.0.3 则不会受任何影响；博主建议大家继续使用本地脚本；想折腾 Quantumult X app 1.0.3 版本远程调用脚本（Scripts）的可参考：https://github.com/limbopro/Script （依然需要配合`WorkingCopy`App食用，一次配置，再也不用担心脚本更新；）
+![img](https://raw.githubusercontent.com/limbopro/Profiles/master/limbopro/Gift/QuantumultX4limbopro.conf.PNG)
+
+0. [点此](https://t.me/limboprossr/924)查看 QuantumultX策略图标效果预览
+
+1. 本预配置文件，相当于提前为QuantumultX`预设策略`（8个策略）及其`策略图标`，`去广告规则`，`主流站点`分流规则，以及无需拔卡看，`Tiktok`，解锁`VSCO`会员；务必遵循教程步骤前后顺序，以确保其可用性；
+
+2. 如需解锁Tiktok，但不想使用预配置文件：可单独参考设置：[iOS 使用 Surge/Quantumult/Shadowrocket /QuantumultX 解锁 TikTok 区域限制（免拔卡）10.10.2019](https://limbopro.xyz/archives/3629.html)  ；
 
 ## 预配置文件更新
-### 13:00 29.10.2019 新增WC预配置文件
+### 无解锁VIP版本
+0. 附带原始版本中：`预设策略`（8个策略）及其`策略图标`，`去广告规则`，`主流站点`分流规则，以及无需拔卡看`Tiktok`，~~解锁`VSCO`会员配置~~；
+1. 如果你啥都不想解锁任何会员的VIP服务；
+2. https://github.com/limbopro/Profiles/tree/master/limbopro/Gift/Without
+3. 使用上面这个预配置；
 
-1. 新增 `Working Copy` 对应版本的预配置文件；
-2. Working Copy丨将Github仓库内容同步到手机（iOS）并配置 Quantumult X 本地脚本，以应对 Quantumult X 1.0.2 版本更新 对远程脚本调用的限制
-3. https://github.com/limbopro/Profiles/tree/master/limbopro/Gift/WC
+### WorkingCopy 版本
+0. 附带原始版本中：`预设策略`（8个策略）及其`策略图标`，`去广告规则`，`主流站点`分流规则，以及无需拔卡看`Tiktok`，解锁`VSCO`会员配置；
+1. https://github.com/limbopro/Profiles/tree/master/limbopro/Gift/WC
+2. 会使用 `Working Copy` APP的小伙伴可以看上面这个链接；
 
-### 22:00 28.10.2019 更新
+### 原始版本
 1. 减少策略到8个，Twitter/Telegram/Google/Ins 默认走`健康检测`策略，可自行修改`策略偏好`；
-0. 为应对 QuantumultX 商店版 1.0.2 更新；
-1. 预配置文件内置了NobyDa 脚本；（预配置文件教程第6步有详细介绍）
-1. 更新预配置文件内置 Tiktok 解锁配置
-2. 更新内置 VSCO/Terimius/酷我音乐 解锁配置
+2. 为应对 QuantumultX 商店版 1.0.2 更新；
+3. 预配置文件内置了NobyDa 脚本；（预配置文件教程第6步有详细介绍）
+4. 更新预配置文件内置 Tiktok 解锁配置
+5. 更新内置 VSCO/Terimius/酷我音乐 解锁配置
 
-*商店版已经更新到`1.0.2`版本，NobyDa `Rewrite`去广告脚本订阅失效（~~已直接内置到预配置文件~~）；如果你已更新到`1.0.2`版本，可进入`Rewrite`模块引用内，删除`NobyDa`脚本；
-
-*如需解锁Tiktok，但不想下载预配置文件：可单独参考设置：[iOS 使用 Surge/Quantumult/Shadowrocket /QuantumultX 解锁 TikTok 区域限制（免拔卡）10.10.2019](https://limbopro.xyz/archives/3629.html)  ；
-
-### 10:00 28.10.2019 更新
-1. 增加 亚马逊/Hulu/HBO/Spotify等分流规则，默认走Proxy
-
-### 23:00 21.10.2019 更新
-1. 增加神机去广告规则订阅，右滑可使用；
-2. 分流订阅排序改变，使得去广告订阅在最前；
-3. 优化预配置文件注释说明，更方便自主修改；
-
-
-# 教程步骤虽多，但足够清晰
-
-本预配置文件，相当于提前为QuantumultX`预设策略`（~~10~~8个策略）及其`策略图标`，`去广告规则`，`主流站点`分流规则，以及无需拔卡看，`Tiktok`，解锁`VSCO`会员；务必遵循教程步骤前后顺序，以确保其可用性；
-
-
+## 原始版本食用步骤
 
 ## 事前备份
 *可备份配置文件，以防止后悔；
@@ -65,8 +55,8 @@
 
 **最终效果图参考** https://t.me/limboprossr/863
 
-# 预配置文件使用教程
-*注意 本教程中的预配置文件特指 `https://raw.githubusercontent.com/limbopro/Profiles/master/limbopro/Gift/QuantumultX4limbopro.conf`；如果你会使用`WorkingCopy`App，可参考：https://github.com/limbopro/Profiles/tree/master/limbopro/Gift/WC ，更方便；
+# 预配置文件使用教程开始
+*注意 本教程中的预配置文件特指`原始版本`预配置文件： `https://raw.githubusercontent.com/limbopro/Profiles/master/limbopro/Gift/QuantumultX4limbopro.conf`；
 
 以下为教程详细步骤：
 
@@ -84,7 +74,7 @@
 1. 进入`QuantumultX`，点击右下角`三菱`按钮；
 2. 找到`配置文件`模块下的`下载`，点击；
 3. 粘贴刚刚复制的配置链接，点击右上角`确定`按钮；
-4. 保存完毕，回到`QuantumultX`主界面，就可以看到配置好的10个`策略`图标了；
+4. 保存完毕，回到`QuantumultX`主界面，就可以看到配置好的8个`策略`图标了；
 
 ## 3.配置你的节点，删除红色感叹号标注的节点（如有）
 *操作步骤务必遵循先后顺序*
@@ -103,7 +93,7 @@
 4. 进入 iOS 系统`设置`-` 通用`-`关于本机`-`证书信任设置`-`针对根证书启用完全信任`-选中刚刚安装的并启用即可；
 
 
-* **VSCO解锁**： 测试解锁成功版本为 Version134.0 版本
+* **VSCO解锁**： 测试解锁成功版本为 v14.7.0 版本（2020最新版本）
 * **Tiktok 如需换区**：进入`QuantumultX`，点击页面右下角三菱按钮，找到Rewrite模块，点击添加，复制
 (?<=(carrier|account|sys)_region=)CN url 307 JP
 将JP修改成其他地区英文缩写即可，其他国家或地区代码。例如改成 HK，KR，TW，KP；
@@ -111,9 +101,7 @@
 
 ## 5.下载并引用本地脚本
 
-*为了应对Quantumlt X v1.0.1 及之后版本更新对远程脚本的限制；具体是指 v1.0.1-1.0.2  已不再支持远程下载JS脚本所以需要进行本地配置；（例如该Rewrite 脚本：https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf）
-
-也就是说将NobyDa的脚本放到本地，以供`QuantumultX`进行引用；
+*为了应对Quantumlt X v1.0.1 及之后版本更新对远程脚本的限制；具体是指 v1.0.1-1.0.5 已不再支持远程下载JS脚本所以需要进行本地配置；也就是说将NobyDa的脚本放到本地，以供`QuantumultX`进行引用，使得**解锁会员VIP的脚本**可用；
 
 0. 现在可以参考视频：https://t.me/limboprossr/921 并配合以下步骤食用；
 
