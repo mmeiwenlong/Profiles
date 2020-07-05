@@ -1,21 +1,26 @@
 ## 主理人说
-Folk 来自神机规则 https://github.com/ConnersHua/Profiles ，除了增加了毒奶专用分流规则，以及 Quantumultx 预配置文件，其他没有任何变动；
+1. Folk 来自神机规则，毒奶自用；
+3. 如你需要 **自行搭配** 使用神机规则，请访问神机源仓库 https://github.com/ConnersHua/Profiles/tree/master ；
 
-## 新增毒奶专用分流规则
+## 毒奶专用分流规则
 https://github.com/limbopro/Profiles/tree/master/limbopro
 
 1. 为了应对突发情况，例如机场域名被污染/墙而无法打开，在此我（提前）为各个机场写了分流规则（订阅即可使用）
-2. 已增加80+主流机场域名（17.10.2019）
+2. 已增加80+主流机场域名
 
+---
 
+## Quantumultx 预配置文件解锁🔓各项姿势（VSCO/Tiktok/Terimius...）
+https://github.com/limbopro/Profiles/tree/master/limbopro/Gift/Without/unzip
 
-## 新增Quantumultx 预配置文件
-https://github.com/limbopro/Profiles/tree/master/limbopro/Gift
+### 毒奶预配置文件（unzip版）说明
 
-1. 本预配置文件，相当于提前为QuantumultX预设策略（8个策略）及其策略图标，Rewrite 去广告规则，主流机场站点分流规则，以及无需拔卡看，Tiktok，解锁VSCO会员，Terimius等；务必遵循教程步骤前后顺序，以确保其可用性；
+0. 利用 Quantumult X 自带的 [配置文件] - [下载] 功能对 Quantumult X 各个模块即参数进行预配置；
+1. 利用 NobyDa 贡献的脚本解锁🔓各项事务，VSCO，Termius，等；
+2. 另外默认配置的是 🔓 美区App Store下载的 Tiktok；届时自己进 [QuantumultX] - [配置文件] - [编辑] - 找到 Tiktok 修改参数即可 
+3. Surge/Clash 用户可以使用由毒奶提供的 订阅转换 API，亦能获得相同的效果；https://limbopro.xyz/archives/subconverter.html
 
-## 其他均未变
-且会一段时间从源库拉取更新（问题不大）
+---
 
 ## 后话
 
@@ -24,6 +29,10 @@ https://github.com/limbopro/Profiles/tree/master/limbopro/Gift
 本站域名已于昨晚被墙，欢迎使用代理访问本站，参考视频设置规则以进行分流：https://t.me/limboprossr/809
 
 以上。
+
+---
+
+以下为 神机规则 原始 Readme.MD 说明；
 
 ## 简介
 
